@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: azure;
+}
+
+a{
+    text-decoration: none;
+    
+}
+ul{
+    list-style: none;
+}
+li{
+    margin-left: 10px;
+}
+li:hover{
+    text-decoration: overline;
+}
+
+.topo{
+    display: flex;
+}
+.menu, .menu__lista{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+    justify-content: space-between;
+    
+}
+.sobre{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.sobre__texto{
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 10px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+.sobre__titulo{
+    text-align: center;
+    padding: 5px;
+    margin: 20px;
+    font-size: 30px;
+}
+.sobre__subtitulo{
+    font-size: 20px;
+}
+
+.logo{
+    margin: 20px;
+    width: 200px;
+}
+.sobre__foto{
+    width: 900px;
+
+}
