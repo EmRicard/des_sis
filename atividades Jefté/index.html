@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedido de Produtos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Pedido de Produtos</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Código</th>
+        <th>Produto</th>
+        <th>Preço (R$)</th>
+      </tr>
+    </thead>
+    <tbody id="products-table">
+
+    </tbody>
+  </table>
+
+  <form id="pedido-form">
+    <label for="codigo">Código do Produto:</label>
+    <input type="text" id="codigo" name="codigo">
+
+    <label for="quantidade">Quantidade:</label>
+    <input type="text" id="quantidade" name="quantidade">
+
+    <button type="submit">Calcular Total</button>
+  </form>
+
+  <div id="resultado"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
